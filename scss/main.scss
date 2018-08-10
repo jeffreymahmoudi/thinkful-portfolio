@@ -19,7 +19,7 @@ body {
 h1, h2, h3, h5, h6 {
   margin: 0;
   font-weight: 400;
-  
+
   &.lg-heading {
     font-size: 6rem;
   }
@@ -78,8 +78,8 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-  'bioimage bio bio'
-  'job1 job2 job3';
+    'bioimage bio bio'
+    'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -87,26 +87,33 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
-  
   }
-  
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
   }
-  
+
+  a {
+    text-decoration: underline;
+    &:hover {
+      color: $secondary-color;
+      @include easeOut;
+    }
+  }
+
   .job-1 {
     grid-area: job1;
   }
-  
+
   .job-2 {
     grid-area: job2;
   }
-  
+
   .job-3 {
     grid-area: job3;
   }
-  
+
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;

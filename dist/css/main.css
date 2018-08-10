@@ -163,6 +163,11 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info a {
+    text-decoration: underline; }
+    .about-info a:hover {
+      color: #ff652f;
+      transition: all 0.5s ease-out; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
