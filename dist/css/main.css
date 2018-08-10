@@ -113,12 +113,12 @@ body {
       z-index: -1;
       background: rgba(49, 68, 85, 0.9); }
 
-h1, h2, h3 {
+h1, h2, h3, h5, h6 {
   margin: 0;
   font-weight: 400; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  h1.lg-heading, h2.lg-heading, h3.lg-heading, h5.lg-heading, h6.lg-heading {
     font-size: 6rem; }
-  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  h1.sm-heading, h2.sm-heading, h3.sm-heading, h5.sm-heading, h6.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(53, 73, 91, 0.5); }
