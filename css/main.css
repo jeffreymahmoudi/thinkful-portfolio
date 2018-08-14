@@ -192,8 +192,8 @@ main {
     color: #ff652f;
     transition: all 0.5s ease-out; }
   .projects img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     float: right;
     margin-left: 15px;
     border: 3px #fff solid; }
