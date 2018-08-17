@@ -133,6 +133,10 @@ main {
     border-bottom: 2px solid $secondary-color;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
   a:hover {
     text-decoration: underline;
     color: $secondary-color;
