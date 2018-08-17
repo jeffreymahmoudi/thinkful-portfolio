@@ -11,6 +11,7 @@ const navItems = document.querySelectorAll('.nav-item');
 let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
+menuBtn.addEventListener('keypress', toggleMenu);
 
 function toggleMenu() {
   if (!showMenu) {
